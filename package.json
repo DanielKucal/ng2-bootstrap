@@ -20,7 +20,7 @@
     "flow.build:dev": "webpack --progress --color",
     "flow.serve:dev": "webpack-dev-server --hot --inline --colors --display-error-details --display-cached",
     "flow.serve:prod": "cross-env NODE_ENV=production webpack-dev-server --hot --inline --colors --display-error-details --display-cached",
-    "prepublish": "npm run flow.clean && npm run flow.compile",
+    "prepublish": "npm run flow.compile",
     "postpublish": "npm run flow.deploy:gh-pages",
     "start": "npm run flow.serve:dev",
     "pretest": "npm run flow.lint",
