@@ -55,7 +55,7 @@ export class CarouselComponent implements OnDestroy {
   protected isPlaying:boolean;
   protected destroyed:boolean = false;
   protected currentSlide:SlideComponent;
-  protected _interval:number;
+  protected _interval:any;
 
   public get isBS4():boolean {
     return Ng2BootstrapConfig.theme === Ng2BootstrapTheme.BS4;
