@@ -65,8 +65,8 @@ export class ModalDirective implements AfterViewInit, OnDestroy {
   // reference to backdrop component
   protected backdrop: ComponentRef<ModalBackdropComponent>;
 
-  protected timerHideModal: number = 0;
-  protected timerRmBackDrop: number = 0;
+  protected timerHideModal: any = 0;
+  protected timerRmBackDrop: any = 0;
 
   protected get document(): any {
     return this.componentsHelper.getDocument();

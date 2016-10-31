@@ -44,7 +44,7 @@ export class TooltipDirective {
   protected visible: boolean = false;
   protected tooltip: ComponentRef<any>;
 
-  protected delayTimeoutId: number;
+  protected delayTimeoutId: any;
 
   public constructor(viewContainerRef: ViewContainerRef,
                      componentsHelper: ComponentsHelper,
