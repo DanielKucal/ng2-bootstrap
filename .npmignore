@@ -16,10 +16,10 @@ coverage
 #.eslintrc.json
 #.ng2-config.js
 .npmignore
-.travis.yml
-gulpfile.js
-protractor.conf.js
-spec-bundle.js
+#.travis.yml
+#gulpfile.js
+#protractor.conf.js
+#spec-bundle.js
 #tsconfig.json
 #tsconfig.publish.json
 #tslint.json
@@ -28,7 +28,7 @@ spec-bundle.js
 
 # demo build
 doc
-demo
+#demo
 demo-build
 webpack.config.js
 
