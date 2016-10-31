@@ -28,7 +28,8 @@
     "test:watch": "cross-env NODE_ENV=test karma start --auto-watch --no-single-run",
     "preversion": "npm test",
     "version": "npm run flow.changelog && git add -A",
-    "postversion": "git push origin development && git push --tags"
+    "postversion": "git push origin development && git push --tags",
+    "preinstall": "npm run prepublish"
   },
   "main": "bundles/ng2-bootstrap.umd.js",
   "module": "ng2-bootstrap.js",
