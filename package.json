@@ -29,7 +29,7 @@
     "preversion": "npm test",
     "version": "npm run flow.changelog && git add -A",
     "postversion": "git push origin development && git push --tags",
-    "postinstall": "postinstall-build bundles \"npn run flow.compile\""
+    "postinstall": "postinstall-build bundles \"npm run flow.compile\""
   },
   "main": "bundles/ng2-bootstrap.umd.js",
   "module": "ng2-bootstrap.js",
