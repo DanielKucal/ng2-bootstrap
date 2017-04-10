@@ -26,6 +26,7 @@
     "test-cross": "SAUCE=true ng test -sr",
     "test-coverage": "ng test -sr -cc",
     "postversion": "run-s changelog git-add git-commit-changelog",
+    "publish": "cd dist && npm publish",
     "git-add": "git add -A",
     "git-commit-changelog": "git commit -am \"chore(changelog): update\"",
     "changelog": "conventional-changelog -i CHANGELOG.md -s -p angular -r 2",
