@@ -24,7 +24,6 @@ export const DEMO_COMPONENTS = [
   DemoPopoverStylingLocalComponent,
   DemoPopoverTriggersCustomComponent,
   DemoPopoverTriggersManualComponent,
-  DemoPopoverTriggersManualComponent,
   DemoPopoverOutsideClickComponent,
   DemoPopoverClassComponent
 ];

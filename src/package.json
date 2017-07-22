@@ -1,5 +1,5 @@
 {
-  "name": "ngx-bootstrap",
+  "name": "zoomsphere.ngx-bootstrap",
   "dependencies": {
     "moment": "*"
   },
